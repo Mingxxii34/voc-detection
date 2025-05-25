@@ -42,7 +42,7 @@ python tools/dataset_converters/pascal_voc.py data/VOCdevkit -o data/VOCdevkit/c
 ```
 
 ## 训练模型
-
+模型训练配置文件见 `configs/pascal_voc`
 1. 训练Mask R-CNN：
 下载预训练模型 https://download.openmmlab.com/mmdetection/v2.0/mask_rcnn/mask_rcnn_r50_fpn_1x_coco/mask_rcnn_r50_fpn_1x_coco_20200205-d4b0c5d6.pth
 ```bash
@@ -56,7 +56,7 @@ bash tools/dist_train.sh configs/pascal_voc/sparse-rcnn_r50_fpn_1x_voc0712.py 2
 
 ## 可视化
 
-见visualize.ipynb
+见`visualize.ipynb`
 
 ## 实验结果
 
