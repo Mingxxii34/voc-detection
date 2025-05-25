@@ -56,9 +56,7 @@ bash tools/dist_train.sh configs/pascal_voc/sparse-rcnn_r50_fpn_1x_voc0712.py 2
 
 ## 可视化
 
-```bash
-python visualize.py
-```
+见visualize.ipynb
 
 ## 实验结果
 
